@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'todo_item',
-    'todo_item.templatetags',
+    'main.templatetags',
 ]
 
 MIDDLEWARE = [
