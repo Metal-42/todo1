@@ -10,6 +10,7 @@ data = {
     'user_name': 'Admin',
 }
 
+
 def main_view(request):
     context = data
     return render(request, 'index.html', context)

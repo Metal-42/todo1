@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MAXLEN = 6
 
 # Application definition
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'todo_item',
+    'todo_item.templatetags',
 ]
 
 MIDDLEWARE = [
